@@ -12,6 +12,7 @@
 		85ED05361EF09B18008FCC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED05341EF09B18008FCC3B /* Main.storyboard */; };
 		85ED05381EF09B18008FCC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85ED05371EF09B18008FCC3B /* Assets.xcassets */; };
 		85ED053B1EF09B18008FCC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED05391EF09B18008FCC3B /* LaunchScreen.storyboard */; };
+		85ED05441EF09C67008FCC3B /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ED05431EF09C67008FCC3B /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		85ED05371EF09B18008FCC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85ED053A1EF09B18008FCC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85ED053C1EF09B18008FCC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85ED05431EF09C67008FCC3B /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85ED05441EF09C67008FCC3B /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				85ED052F1EF09B18008FCC3B /* FPExmpl */,
 				85ED052E1EF09B18008FCC3B /* Products */,
+				85ED05421EF09C67008FCC3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				85ED053C1EF09B18008FCC3B /* Info.plist */,
 			);
 			path = FPExmpl;
+			sourceTree = "<group>";
+		};
+		85ED05421EF09C67008FCC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85ED05431EF09C67008FCC3B /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47588266MJ;
 				INFOPLIST_FILE = FPExmpl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.FPExmpl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +289,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47588266MJ;
 				INFOPLIST_FILE = FPExmpl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.unam.fciencias.FPExmpl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
